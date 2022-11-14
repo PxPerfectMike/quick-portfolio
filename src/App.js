@@ -21,6 +21,7 @@ function App() {
 				href='https://pxperfect-quick-chat.herokuapp.com/'
 				target='_blank'
 				rel='noreferrer'
+				style={{ fontFamily: 'pacifico', fontSize: '3rem' }}
 			>
 				Quick Chat App
 			</a>
@@ -33,7 +34,16 @@ function App() {
 				bringing interactive ideas to life in the browser using modern
 				techniques. Beautiful and functional design is my passion.
 			</p>
-			<p>Netflix Helper</p>
+			<p
+				style={{
+					fontSize: '3rem',
+					fontFamily: "'Bebas Neue', cursive",
+					margin: 0,
+					color: 'red',
+				}}
+			>
+				Netflix Helper
+			</p>
 			<ul style={{ listStyleType: 'none', paddingInlineStart: 0 }}>
 				<li className='blockList'>
 					<a
@@ -57,21 +67,38 @@ function App() {
 			</ul>
 		</>,
 		<>
-			<ColorLensIcon />
-			<h2>Designer</h2>
+			<LightbulbIcon sx={{ fontSize: '40px', marginTop: '3vh' }} />
+			<h2>Naturally Curious</h2>
 			<p>
-				I value simple and meaningful experiences, clean design patterns, and
-				thoughtful interactions. Everything I create has thought and purpose
-				behind it and I strive to make the best possible user experience across
-				all projects.
+				One of my favorite things about programming is learning new concepts and
+				practices. I am genuinely interested in learning new things and I am
+				always looking for new opportunities to grow. The best thing about tech
+				is that the pool of knowledge is endless.
 			</p>
+
 			<a
 				href='https://pxperfect-quick-chat.herokuapp.com/'
 				target='_blank'
 				rel='noreferrer'
+				style={{
+					textDecoration: 'none',
+					fontSize: '40px',
+					color: 'lightgreen',
+					fontFamily: '"Roboto", cursive',
+					marginBottom: '10px',
+				}}
 			>
-				Quick Chat App
+				<h1
+					style={{
+						fontSize: '22px',
+						color: 'green',
+						fontFamily: 'roboto',
+					}}
+				>
+					S.E.P.C.
+				</h1>
 			</a>
+			<p style={{ fontSize: '14px', margin: 0 }}>(Super Easy Programmed CSS)</p>
 		</>,
 	];
 	return (
@@ -83,7 +110,7 @@ function App() {
 			spacing={2}
 		>
 			<Grid item xs={12}>
-				<h1>Michael Baker Portfolio</h1>
+				<h1>Michael Baker - Web Developer</h1>
 			</Grid>
 			<Grid item xs={12} md={12}>
 				<Grid
@@ -96,9 +123,10 @@ function App() {
 						<Grid key={value} item>
 							<Paper
 								sx={{
-									height: '35vh',
-									width: '95vw',
+									height: '40vh',
+									width: '90vw',
 									backgroundColor: '#f5f5f5',
+									padding: '1vw',
 								}}
 							>
 								{stuffArr[value]}
