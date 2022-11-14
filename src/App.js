@@ -9,24 +9,6 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 function App() {
 	const stuffArr = [
 		<>
-			<ColorLensIcon sx={{ fontSize: '40px' }} />
-			<h2>Designer</h2>
-			<p>
-				I value simple and meaningful experiences, clean design patterns, and
-				thoughtful interactions. Everything I create has thought and purpose
-				behind it and I strive to make the best possible user experience across
-				all projects.
-			</p>
-			<a
-				href='https://pxperfect-quick-chat.herokuapp.com/'
-				target='_blank'
-				rel='noreferrer'
-				style={{ fontFamily: 'pacifico', fontSize: '3rem' }}
-			>
-				Quick Chat App
-			</a>
-		</>,
-		<>
 			<CodeIcon sx={{ fontSize: '40px' }} />
 			<h2>Frontend Developer</h2>
 			<p>
@@ -65,6 +47,24 @@ function App() {
 					</a>
 				</li>
 			</ul>
+		</>,
+		<>
+			<ColorLensIcon sx={{ fontSize: '40px' }} />
+			<h2>Designer</h2>
+			<p>
+				I value simple and meaningful experiences, clean design patterns, and
+				thoughtful interactions. Everything I create has thought and purpose
+				behind it and I strive to make the best possible user experience across
+				all projects.
+			</p>
+			<a
+				href='https://pxperfect-quick-chat.herokuapp.com/'
+				target='_blank'
+				rel='noreferrer'
+				style={{ fontFamily: 'pacifico', fontSize: '3rem' }}
+			>
+				Quick Chat App
+			</a>
 		</>,
 		<>
 			<LightbulbIcon sx={{ fontSize: '40px', marginTop: '3vh' }} />
